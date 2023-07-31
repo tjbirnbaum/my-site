@@ -2,8 +2,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  flex-shrink: 0;
+  width: 690px;
+  height: auto; /* 208px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  line-height: 1.2;
 }
 
 * {
@@ -29,6 +39,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.Button1 {
+  border-radius: 15px;
+  box-shadow: 10, 10, 5, 10;
 }
 
 code {
