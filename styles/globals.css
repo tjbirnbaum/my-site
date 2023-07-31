@@ -10,6 +10,18 @@ body {
   box-sizing: border-box;
 }
 
+.title {
+    flex-shrink: 0;
+    width: 690px;
+    height: auto; /* 211px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    position: relative;
+    line-height: 1.2;
+    text-align: left;
+  }
+
 main {
   padding: 5rem 0;
   flex: 1;
