@@ -42,8 +42,22 @@ main {
 }
 
 .Button1 {
-  border-radius: 15px;
-  box-shadow: 10, 10, 5, 10;
+  box-sizing: border-box;
+  width: min-content; /* 162px */
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 35px 15px 35px;
+  box-shadow: 0px 0.7409732186279143px 0.7409732186279143px -0.7000000000000001px rgba(19, 49, 92, 0.69), 0px 2.0178668455264415px 2.0178668455264415px -1.4000000000000001px rgba(19, 49, 92, 0.66771), 0px 4.430505261661892px 4.430505261661892px -2.1px rgba(19, 49, 92, 0.62911), 0px 9.834710084098335px 9.834710084098335px -2.8000000000000003px rgba(19, 49, 92, 0.54264), 0px 25px 25px -3.5px rgba(19, 49, 92, 0.3);
+  background-color: #13315c;
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10;
+  position: absolute;
+  border-radius: 10px;
 }
 
 code {
