@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Button from '@components/Button'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -19,8 +21,8 @@ export default function Home() {
         And, instead of choosing to limit myself down to an unnessecary niche, 
         I've chosen to build my entire business on being an all-around creative professional.</p>
         <p className="description">So, I make stuff. What can I make for you?</p>
-        <Button buttonClass="button1" buttonText="See my past work" />
-        <Button buttonClass="button1" buttonText="Contact me" />
+        <Button buttonClass="button1" buttonLink='/posts/playing_with_react' buttonText="See my past work" />
+        <Button buttonClass="button1" buttonLink='/posts/playing_with_react' buttonText="Contact me" />
       </main>
 
       <Footer />
