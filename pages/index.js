@@ -19,7 +19,8 @@ export default function Home() {
         And, instead of choosing to limit myself down to an unnessecary niche, 
         I've chosen to build my entire business on being an all-around creative professional.</p>
         <p className="description">So, I make stuff. What can I make for you?</p>
-        <Button className="Button1" buttonText="See my past work" />
+        <Button className="button1" buttonClass="See my past work" />
+        <Button className="button1" buttonClass="Contact me" />
       </main>
 
       <Footer />
