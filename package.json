@@ -8,6 +8,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@next/font": "^13.4.12",
     "cypress": "^10.0.3",
     "eslint-config-next": "^13.4.12",
     "next": "^13.4.12",
