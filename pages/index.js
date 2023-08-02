@@ -3,7 +3,6 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Button from '@components/Button'
 import Link from 'next/link'
-import GalleryImage from "https://framer.com/m/Gallery-Image-7amP.js@cPePk6baE4FHXe4FNxbI"
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
         <p className="description">So, I make stuff. What can I make for you?</p>
         <Button buttonClass="variant1" buttonLink='/posts/playing_with_react' buttonText="See my past work" />
         <Button buttonClass="variant2" buttonLink='/posts/playing_with_react' buttonText="Contact me" />
-        <GalleryImage />
+        
       
       </main>
 
