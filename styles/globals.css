@@ -19,7 +19,6 @@ body {
 }
 
 .title {
-    flex-shrink: 0;
     width: 690px;
     height: auto; /* 211px */
     white-space: pre-wrap;
