@@ -9,7 +9,7 @@
     padding: 25px 45px 25px 45px;
     background-color: #fffffa;
     overflow: hidden;
-    align-content: center;
+    align-content: flex-end;
     flex-wrap: nowrap;
     gap: 24;
     position: absolute;
@@ -18,4 +18,9 @@
 
 .menuList {
     font-family: 'poppins';
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
 }
