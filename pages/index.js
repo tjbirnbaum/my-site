@@ -5,7 +5,7 @@ import { DarkBlueButton } from '@components/Button'
 import { BlueButton } from '@components/Button'
 import Menu from '@components/Menu'
 import Link from 'next/link'
-import { Poppins } from 'next/font/google'
+
 
 export default function Home() {
   return (
