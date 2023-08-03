@@ -17,12 +17,12 @@ export default function Home() {
       <main>
         <Menu />
         <Header title="Photographer. Filmmaker. Professional goofball." />
-        <p style={Poppins} className="description">Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art.</p>
-        <p style={Poppins} className="description">The best way to describe myself here is to simply say "I make stuff." 
+        <p className="description">Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art.</p>
+        <p className="description">The best way to describe myself here is to simply say "I make stuff." 
         I'm a photographer, filmmaker, and writer with a more-than-passing interest in design, art, and coding. 
         And, instead of choosing to limit myself down to an unnessecary niche, 
         I've chosen to build my entire business on being an all-around creative professional.</p>
-        <p style={Poppins} className="description">So, I make stuff. What can I make for you?</p>
+        <p className="description">So, I make stuff. What can I make for you?</p>
         <BlueButton buttonLink='/posts/playing_with_react' buttonText="See my past work" />
         <DarkBlueButton buttonLink='/posts/playing_with_react' buttonText="Contact me" />
         
