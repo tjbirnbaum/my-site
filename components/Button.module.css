@@ -1,8 +1,10 @@
 .blueButton {
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
     color: #f2f2f2;
-    width: min-content;
+    width: 162px;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -40,11 +42,12 @@
         25px 
         -3.5px 
         rgba(73, 124, 159, 0.3);
+        position: relative;
 }
 
 .blueButton:hover {
     box-sizing: border-box;
-    width: min-content; /* 162px */
+    width: 162px; /* 162px */
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -57,15 +60,17 @@
     align-content: center;
     flex-wrap: nowrap;
     gap: 10;
-    position: absolute;
+    position: relative;
     border-radius: 20px;
 }
 
 .darkButton {
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
     color: #f2f2f2;
-    width: min-content;
+    width: 162px;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -76,12 +81,13 @@
     flex-wrap: nowrap;
     border-radius: 10px;
     background-color: #0F3042;
+    position: relative;
     box-shadow: 0px 0.7409732186279143px 0.7409732186279143px -0.7000000000000001px rgba(19, 49, 92, 0.69), 0px 2.0178668455264415px 2.0178668455264415px -1.4000000000000001px rgba(19, 49, 92, 0.66771), 0px 4.430505261661892px 4.430505261661892px -2.1px rgba(19, 49, 92, 0.62911), 0px 9.834710084098335px 9.834710084098335px -2.8000000000000003px rgba(19, 49, 92, 0.54264), 0px 25px 25px -3.5px rgba(19, 49, 92, 0.3);
 }
 
 .darkButton:hover {
-    box-sizing: border-box;
-  width: min-content; /* 162px */
+  box-sizing: border-box;
+  width: 162px; /* 162px */
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -92,8 +98,6 @@
   background-color: #8da9c4;
   overflow: visible;
   align-content: center;
-  flex-wrap: nowrap;
-  gap: 10;
-  position: absolute;
+  position: relative;
   border-radius: 20px;
 }
