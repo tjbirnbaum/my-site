@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Button from '@components/Button'
+import Menu from '@components/Menu'
 import Link from 'next/link'
 
 export default function Home() {
@@ -11,7 +12,9 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <div>
+        <Menu />
+      </div>
       <main>
         <Header title="Photographer. Filmmaker. Professional goofball." />
         <p className="description">Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art.</p>

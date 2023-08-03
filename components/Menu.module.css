@@ -1,0 +1,21 @@
+.menu {
+    box-sizing: border-box;
+    width: 98%;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 45px 25px 45px;
+    background-color: #fffffa;
+    overflow: hidden;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 24;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.menuList {
+    font-family: 'poppins';
+}
