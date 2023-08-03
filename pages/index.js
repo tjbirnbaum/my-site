@@ -13,7 +13,8 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main><Menu />
+      <main>
+        <Menu />
         <Header title="Photographer. Filmmaker. Professional goofball." />
         <p className="description">Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art.</p>
         <p className="description">The best way to describe myself here is to simply say "I make stuff." 

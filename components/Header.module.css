@@ -1,0 +1,11 @@
+.title {
+    font-family: 'poppins';
+    width: 690px;
+    height: auto; /* 211px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    position: relative;
+    line-height: 1.2;
+    text-align: left;
+  }
