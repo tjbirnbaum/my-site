@@ -1,8 +1,10 @@
+import styles from '@components/Menu.module.css'
+
 export default function Menu() {
     return (
-        <div className="menu">
+        <div className={styles.menu}>
             <img src="" alt="TJ Birnbaum Multimedia"></img>
-            <ul className="menuList">
+            <ul className={styles.menuList}>
                 <li>About</li>
                 <li>Thoughts</li>
                 <li>Work</li>
