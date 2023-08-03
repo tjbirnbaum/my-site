@@ -1,4 +1,4 @@
-.variant1 {
+.blueButton {
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     color: #f2f2f2;
@@ -42,7 +42,7 @@
         rgba(73, 124, 159, 0.3);
 }
 
-.variant1:hover {
+.blueButton:hover {
     box-sizing: border-box;
     width: min-content; /* 162px */
     height: 50px;
@@ -61,7 +61,7 @@
     border-radius: 20px;
 }
 
-.variant2 {
+.darkButton {
     font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     color: #f2f2f2;
@@ -79,7 +79,7 @@
     box-shadow: 0px 0.7409732186279143px 0.7409732186279143px -0.7000000000000001px rgba(19, 49, 92, 0.69), 0px 2.0178668455264415px 2.0178668455264415px -1.4000000000000001px rgba(19, 49, 92, 0.66771), 0px 4.430505261661892px 4.430505261661892px -2.1px rgba(19, 49, 92, 0.62911), 0px 9.834710084098335px 9.834710084098335px -2.8000000000000003px rgba(19, 49, 92, 0.54264), 0px 25px 25px -3.5px rgba(19, 49, 92, 0.3);
 }
 
-.variant2:hover {
+.darkButton:hover {
     box-sizing: border-box;
   width: min-content; /* 162px */
   height: 50px;

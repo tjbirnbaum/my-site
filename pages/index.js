@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Button from '@components/Button'
+import { DarkBlueButton } from '@components/Button'
+import { BlueButton } from '@components/Button'
 import Menu from '@components/Menu'
 import Link from 'next/link'
 
@@ -12,10 +13,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Menu />
-      </div>
-      <main>
+      <main><Menu />
         <Header title="Photographer. Filmmaker. Professional goofball." />
         <p className="description">Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art.</p>
         <p className="description">The best way to describe myself here is to simply say "I make stuff." 
@@ -23,8 +21,8 @@ export default function Home() {
         And, instead of choosing to limit myself down to an unnessecary niche, 
         I've chosen to build my entire business on being an all-around creative professional.</p>
         <p className="description">So, I make stuff. What can I make for you?</p>
-        <Button buttonClass="variant1" buttonLink='/posts/playing_with_react' buttonText="See my past work" />
-        <Button buttonClass="variant2" buttonLink='/posts/playing_with_react' buttonText="Contact me" />
+        <BlueButton buttonLink='/posts/playing_with_react' buttonText="See my past work" />
+        <DarkBlueButton buttonLink='/posts/playing_with_react' buttonText="Contact me" />
         
       
       </main>

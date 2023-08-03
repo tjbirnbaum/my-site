@@ -1,8 +1,18 @@
 import Link from 'next/link';
 import styles from './Button.module.css'
 
-export default function Button({buttonClass, buttonText, buttonLink}) {
-    return <button className={styles.buttonClass}>
+export function BlueButton({buttonText, buttonLink}) {
+    return (
+        <button className="blueButton">
+                    <Link href={buttonLink}>{buttonText}</Link>
+                </button>
+        );
+    }
+
+export function DarkBlueButton({buttonText, buttonLink}) {
+    return (
+    <button className="darkButton">
                 <Link href={buttonLink}>{buttonText}</Link>
             </button>
+    );
 }
