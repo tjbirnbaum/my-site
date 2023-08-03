@@ -3,7 +3,7 @@ import styles from './Button.module.css'
 
 export function BlueButton({buttonText, buttonLink}) {
     return (
-        <button className="blueButton">
+        <button className={styles.blueButton}>
                     <Link href={buttonLink}>{buttonText}</Link>
                 </button>
         );
@@ -11,7 +11,7 @@ export function BlueButton({buttonText, buttonLink}) {
 
 export function DarkBlueButton({buttonText, buttonLink}) {
     return (
-    <button className="darkButton">
+    <button className={styles.darkButton}>
                 <Link href={buttonLink}>{buttonText}</Link>
             </button>
     );

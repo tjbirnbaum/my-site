@@ -9,10 +9,10 @@
     padding: 25px 45px 25px 45px;
     background-color: #fffffa;
     overflow: hidden;
-    align-content: flex-end;
+    align-content: space-around;
     flex-wrap: nowrap;
     gap: 24;
-    position: absolute;
+    position: relative;
     border-radius: 15px;
 }
 
