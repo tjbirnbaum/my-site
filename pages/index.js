@@ -7,7 +7,12 @@ import Menu from '@components/Menu'
 import Paragraph from '@components/Paragraph'
 import { poppinsReg } from '@components/Fonts'
 import Link from 'next/link'
+import HomeGallery from '@components/Main Gallery'
 
+const bodyFont = {
+  fontFamily: {poppinsReg},
+  fontWeight: '[400]'
+}
 
 export default function Home() {
   return (
@@ -19,12 +24,19 @@ export default function Home() {
       <main>
         <Menu />
         <Header title="Photographer. Filmmaker. Professional goofball." />
-        <Paragraph content="Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art." />
-        <Paragraph content={"The best way to describe myself here is to simply say " + '"I make stuff." ' + "I am a photographer, filmmaker, and writer with a more-than-passing interest in design, art, and coding. And, instead of choosing to limit myself down to an unnessecary niche, I've chosen to build my entire business on being an all-around creative professional."} />
-        <Paragraph content={"So, I make stuff. What can I make for you?"} />
-        <BlueButton buttonLink='/posts/playing_with_react' buttonText="See my past work" />
-        <DarkBlueButton buttonLink='/posts/playing_with_react' buttonText="Contact me" />
-        
+        <div className='bodyContent'>
+          <p style={bodyFont}>Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art."</p>
+          <p style={bodyFont}>The best way to describe myself here is to simply say " + '"I make stuff." ' + "I am a photographer, filmmaker, and writer with a more-than-passing interest in design, art, and coding. And, instead of choosing to limit myself down to an unnessecary niche, I've chosen to build my entire business on being an all-around creative professional."</p>
+          <p style={bodyFont}>So, I make stuff. What can I make for you?"</p>
+        </div>
+        <div id='buttons'>
+          <button className='blueButton' href='/posts/playing_with_react'>What I'm up to</button>
+          <button className='darkButton' href='/posts/playing_with_react'>What I'm up to</button>
+
+         </div>
+        <div className='bodyContent'>
+          <HomeGallery />
+        </div>
       
       </main>
 

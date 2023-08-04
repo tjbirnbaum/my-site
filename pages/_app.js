@@ -2,11 +2,14 @@ import '@styles/globals.css'
 import Link from 'next/link'
 import { Poppins } from 'next/font/google'
  
-
+const poppinsReg = Poppins({
+  weight: ['400'],
+  subsets: ['latin'],
+});
 
 function Application({ Component, pageProps }) {
   return (
-  <main style={PoppinsReg.style}>
+  <main style={poppinsReg.style}>
     <Component {...pageProps} />
   </main>
   );

@@ -1,4 +1,5 @@
-import { Poppins } from next/fonts/google
+
+import { Poppins } from 'next/font/google'
 
 export const poppinsReg = Poppins({
     weight: ['400'],
