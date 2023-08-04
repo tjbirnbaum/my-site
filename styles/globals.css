@@ -50,6 +50,11 @@ main {
     border-radius: 0px 0px 0px 0px;
 }
 
+p .blogContent {
+  line-height: normal;
+  font-weight: 400;
+}
+
 code {
   background: #fafafa;
   border-radius: 5px;
