@@ -4,55 +4,10 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   align-items: center;
-  width: 85%;
   word-wrap: break-word;
   word-break: break-word;
-  overflow: visible;
   line-height: 1.2;
-}
-
-p {
-  font-family:'Poppins', '--Poppins' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.title {
-    font-family: 'poppins';
-    width: 690px;
-    height: auto; /* 211px */
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: break-word;
-    position: relative;
-    line-height: 1.2;
-    text-align: left;
-  }
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    overflow: hidden;
-    position: relative;
-    align-content: center;
-    flex-wrap: nowrap;
-    gap: 40;
-    border-radius: 0px 0px 0px 0px;
-}
-
-p .blogContent {
-  line-height: normal;
-  font-weight: 400;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
 .container {
@@ -66,8 +21,53 @@ code {
   align-items: center;
 }
 
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 40;
+}
+
+p {
+  font-family:'Poppins', '--Poppins' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title {
+    font-family: 'poppins';
+    height: auto; /* 211px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    position: relative;
+    line-height: 1.2;
+    text-align: left;
+    justify-content: left;
+    align-self: flex-start;
+  }
+
+p .blogContent {
+  line-height: normal;
+  font-weight: 400;
+}
+
+code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
 .bodyContent {
+  display: flex;
+  flex-grow: 1;
   text-align: left;
+  width: 85%;
   max-width: 800px;
   padding-left: 10px;
   padding-right: 10px;
