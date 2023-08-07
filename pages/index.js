@@ -23,12 +23,12 @@ export default function Home() {
         <Header title="Photographer. Filmmaker. Professional goofball." />
         <div className='bodyContent'>
           <p className={bodyFont}>Hi there. I'm TJ: camera nerd, dad-joke enthusiast, and ardent purveyor of all things even remotely related to art."</p>
-          <p className={bodyFont}>The best way to describe myself here is to simply say " + '"I make stuff." ' + "I am a photographer, filmmaker, and writer with a more-than-passing interest in design, art, and coding. And, instead of choosing to limit myself down to an unnessecary niche, I've chosen to build my entire business on being an all-around creative professional."</p>
+          <p className={bodyFont}>The best way to describe myself here is to simply say "I make stuff." I am a photographer, filmmaker, and writer with a more-than-passing interest in design, art, and coding. And, instead of choosing to limit myself down to an unnessecary niche, I've chosen to build my entire business on being an all-around creative professional."</p>
           <p className={bodyFont}>So, I make stuff. What can I make for you?"</p>
         </div>
         <div id='buttons'>
-          <button className='blueButton' href='/posts/playing_with_react'>What I'm up to</button>
-          <button className='darkButton' href='/posts/playing_with_react'>What I'm up to</button>
+          <a className='blueButton' href='/posts/playing_with_react'>What I'm up to</a>
+          <a className='darkButton' href='/posts/playing_with_react'>What I'm up to</a>
 
          </div>
         <div className='bodyContent'>

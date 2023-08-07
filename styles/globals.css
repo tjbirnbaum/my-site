@@ -128,13 +128,10 @@ code {
 }
 
 .blueButton:hover {
-  width: 162px; /* 162px */
-  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 35px 15px 35px;
   box-shadow: 0px 0.5971439051427296px 0.5374295146284566px -1px rgba(19, 49, 92, 0.78), 0px 1.8108796073283884px 1.6297916465955493px -2px rgba(19, 49, 92, 0.72756), 0px 4.786990141113346px 4.308291127002011px -3px rgba(19, 49, 92, 0.60852), 0px 15px 13.499999999999998px -4px rgba(19, 49, 92, 0.2);
   background-color: #c4c4c4;
   overflow: visible;
@@ -171,13 +168,10 @@ code {
 }
 
 .darkButton:hover {
-width: 162px; /* 162px */
-height: 50px;
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 15px 35px 15px 35px;
 box-shadow: 0px 0.5971439051427296px 0.5374295146284566px -1px rgba(19, 49, 92, 0.78), 0px 1.8108796073283884px 1.6297916465955493px -2px rgba(19, 49, 92, 0.72756), 0px 4.786990141113346px 4.308291127002011px -3px rgba(19, 49, 92, 0.60852), 0px 15px 13.499999999999998px -4px rgba(19, 49, 92, 0.2);
 background-color: #8da9c4;
 overflow: visible;

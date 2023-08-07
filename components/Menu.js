@@ -28,8 +28,8 @@ export default function Menu() {
             style={imageStyle}
             alt="TJ Birnbaum Multimedia" />
             <ul className={styles.menuList}>
-                <li className='styles.menuItem'><Link style={linkStyle} href='pages/about.js'>About</Link></li>
-                <li className='styles.menuItem'><Link style={linkStyle} href='pages/blog.js'>Thoughts</Link></li>
+                <li className='styles.menuItem'><Link style={linkStyle} href='/about'>About</Link></li>
+                <li className='styles.menuItem'><Link style={linkStyle} href='/blog'>Thoughts</Link></li>
                 <li className='styles.menuItem'>Work</li>
                 <li className='styles.menuItem'>Contact</li>
             </ul>
