@@ -3,22 +3,33 @@
     height: 85px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 25px 45px 25px 45px;
     background-color: #fffffa;
     overflow: hidden;
-    align-content: space-around;
+    align-content: center;
     flex-wrap: nowrap;
-    gap: 24;
     position: relative;
     border-radius: 15px;
 }
 
+
 .menuList {
+    font-size: 14px;
+    list-style: none;
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 25px;
+}
 
+.menuItem {
+    list-style: none;
+}
+
+@media (max-width: 480px) {
+    .menuList {
+        display: none;
+    }
 }

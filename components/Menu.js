@@ -1,15 +1,21 @@
 import styles from '@components/Menu.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 import logoImage from "/images/TJ Birnbaum Multimedia Logo Tranparent-01 Wide.png"
 import { Poppins } from 'next/font/google';
 
 const PoppinsReg = Poppins({
-    weight: ['400'],
+    weight: ['500'],
     subsets: ['latin'],
   })
 
   const imageStyle = {
     objectFit: 'contain'
+  }
+
+  const linkStyle = {
+    textDecoration: 'none',
+    color: 'black'
   }
 
 export default function Menu() {
@@ -22,10 +28,10 @@ export default function Menu() {
             style={imageStyle}
             alt="TJ Birnbaum Multimedia" />
             <ul className={styles.menuList}>
-                <li>About</li>
-                <li>Thoughts</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li className='styles.menuItem'><Link style={linkStyle} href='pages/about.js'>About</Link></li>
+                <li className='styles.menuItem'><Link style={linkStyle} href='pages/blog.js'>Thoughts</Link></li>
+                <li className='styles.menuItem'>Work</li>
+                <li className='styles.menuItem'>Contact</li>
             </ul>
         </div>
     );

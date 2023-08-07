@@ -20,7 +20,14 @@
 .imageMed {
     width: 48%;
     max-width: 1200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0.18065619053231785px 0.6021873017743928px 0.6287020006298476px -1.1666666666666665px rgba(19, 49, 92, 0.34), 0.6865599909730371px 2.288533303243457px 2.389298914171123px -2.333333333333333px rgba(19, 49, 92, 0.30423), 3px 10px 10.44030650891055px -3.5px rgba(19, 49, 92, 0.15);
+}
+
+@media (max-width: 480px) {
+.imageMed {
+    width: 100%;
+    }
 }
